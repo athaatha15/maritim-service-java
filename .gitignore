@@ -1,0 +1,17 @@
+# Java build output
+target/
+*.class
+
+# IDE and local server settings
+.idea/
+.smarttomcat/
+
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
